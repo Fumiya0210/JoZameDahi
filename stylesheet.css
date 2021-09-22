@@ -293,28 +293,28 @@ overflow: hidden;
      .contact{
         position: absolute;
         top: 20px; 
-        left: 470px;
+        left: 500px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
     .profile{
         position: absolute;
         top: 20px;
-        left: 270px;
+        left: 360px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
     .home{
         position: absolute;
         top: 20px;
-        left: 200px;
+        left: 290px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
     .blog{
         position: absolute;
         top: 20px;
-        left: 350px;
+        left: 440px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
