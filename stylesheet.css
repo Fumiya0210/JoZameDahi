@@ -268,13 +268,13 @@ overflow: hidden;
  .foto1{
     position: absolute;
     top: 765px; 
-    left: 40px;
+    left: 0px;
     margin:0 auto;
 }
 .foto2{
     position: absolute;
     top: 65px;
-    left: 40px;
+    left: 0px;
     cursor: pointer;
     filter: grayscale(100%);
     transition-duration: 0.5s;
