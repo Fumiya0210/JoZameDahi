@@ -288,7 +288,7 @@ overflow: hidden;
         z-index: 10;
     }
      .top-right{
-            margin-top: 2px;
+            margin-top: 4px;
          font-family: 'Oswald', sans-serif;
          font-size: 40px;
          line-height: 50px;
@@ -304,21 +304,21 @@ overflow: hidden;
     .profile{
         position: absolute;
         top: 20px;
-        left: 340px;
+        left: 330px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
     .home{
         position: absolute;
         top: 20px;
-        left: 260px;
+        left: 240px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
     .blog{
         position: absolute;
         top: 20px;
-        left: 440px;
+        left: 430px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
