@@ -263,21 +263,21 @@ overflow: hidden;
     }
  .foto1{
     position: absolute;
-    top: 65px; 
-    left: 20px;
+    top: 765px; 
+    left: 40px;
     margin:0 auto;
 }
 .foto2{
     position: absolute;
-    top: 765px;
-    left: 20px;
+    top: 65px;
+    left: 40px;
     cursor: pointer;
     filter: grayscale(100%);
     transition-duration: 0.5s;
      margin:0 auto;
 }
     header{
-        height: 60px;
+        height: 80px;
         width: 599px;
         background-color: white;
         position: fixed;
@@ -348,7 +348,7 @@ overflow: hidden;
         width:			599px;
         height:			400px;
         overflow:		hidden;
-        margin:			200px 0px 0px 50px;
+        margin:			200px 0px 0px 10px;
         position:		relative;
         transition-duration: 0.5s;
         cursor: pointer;
@@ -390,7 +390,7 @@ overflow: hidden;
         width:			599px;
         height:			400px;
         overflow:		hidden;
-        margin:			200px 0px 100px 50px;
+        margin:			200px 0px 100px 10px;
         position:		relative;
         transition-duration: 0.5s;
         cursor: pointer;
@@ -462,7 +462,7 @@ overflow: hidden;
         display: inline-block;
         padding: 60px 250px;
         margin-left: 0px;
-        margin-top: 247px;
+        margin-top: 400px;
         background:white;
         -webkit-transition: -webkit-transform 0.3s;
         -moz-transition: -moz-transform 0.3s;
