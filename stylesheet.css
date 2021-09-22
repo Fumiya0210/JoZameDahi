@@ -35,7 +35,7 @@ header{
     width: 100%;
     background-color: white;
     position: fixed;
-    z-index: 2;
+    z-index: 10;
 }
 .contact{
     position: absolute;
@@ -100,6 +100,7 @@ overflow: hidden;
 	position:		relative;
     transition-duration: 0.5s;
     cursor: pointer;
+    z-index: 3;
 }
 .caption{
     font-size:		70px;
@@ -137,10 +138,11 @@ overflow: hidden;
     width:			800px;
 	height:			400px;
 	overflow:		hidden;
-	margin:			200px 128px 200px 350px;
+	margin:			200px 128px 100px 350px;
 	position:		relative;
     transition-duration: 0.5s;
     cursor: pointer;
+    z-index: 3;
 }
 .bcaption{
     font-size:		70px;
@@ -171,7 +173,80 @@ overflow: hidden;
 .bcaption span{
     color: coral;
 }
-
-    
-    
-
+.w-wrapper{
+    width: 1000px;
+    height: 1700px;
+    background-image: url(sumiw.png);
+    position: absolute;
+    top: 800px;
+    left: 265px;
+    z-index: 2;
+}
+.title{
+    position: absolute;
+    top: 2090px;
+    left: 350px;
+    z-index: 2; 
+    font-family: 'Roboto', sans-serif; 
+     
+}
+.title span {
+    position: relative;
+    background: linear-gradient(transparent 40%, yellow 40%);
+  }
+  a.button {
+    line-height: 32px;
+    -webkit-perspective: 300px;
+    -moz-perspective: 300px;
+    perspective: 300px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 40px;
+  }
+  a.button span {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding: 60px 436px;
+    margin-left: 265px;
+    margin-top: 247px;
+    background:white;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  a.button span::before {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:white;
+    content: attr(data-hover);
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    transition: background 0.3s;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+  }
+  a.button:hover span,
+  a.button:focus span {
+    -webkit-transform: rotateX(90deg) translateY(-22px);
+    -moz-transform: rotateX(90deg) translateY(-22px);
+    transform: rotateX(90deg) translateY(-22px);
+  }
+  a.button:hover span::before,
+  a.button:focus span::before {
+    background:white;
+  }
