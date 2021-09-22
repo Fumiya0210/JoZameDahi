@@ -6,8 +6,6 @@ body {
     width: 1000px;
     overflow: hidden;
 }
-.foto1 { display: block !important; }
-.spfoto1 { display: none !important; }
 .foto1{
     position: absolute;
     top: 65px; 
@@ -254,7 +252,14 @@ overflow: hidden;
   }
  @media(max-width:800px){
    
-    .foto1 { display: none !important; }
-    .spfoto1 { display: block !important; }
-    .foto2{width: 100%;} 
+    body {
+        margin: 0px 0px 0px 0px;
+        width: 599px;
+    }
+    .top-wrapper{
+        height: 1520px;
+        width: 500px;
+        overflow: hidden;
+        display: flex;
+    }
   }
