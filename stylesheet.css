@@ -260,6 +260,6 @@ overflow: hidden;
         height: 1520px;
         width: 500px;
         overflow: hidden;
-        display: flex;
+        display: block;
     }
   }
