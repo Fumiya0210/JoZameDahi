@@ -265,6 +265,7 @@ overflow: hidden;
     position: absolute;
     top: 65px; 
     left: 20px;
+    margin:0 auto;
 }
 .foto2{
     position: absolute;
@@ -273,6 +274,7 @@ overflow: hidden;
     cursor: pointer;
     filter: grayscale(100%);
     transition-duration: 0.5s;
+     margin:0 auto;
 }
     header{
         height: 60px;
@@ -346,7 +348,7 @@ overflow: hidden;
         width:			599px;
         height:			400px;
         overflow:		hidden;
-        margin:			200px 50px 50px 0px;
+        margin:			200px 0px 0px 50px;
         position:		relative;
         transition-duration: 0.5s;
         cursor: pointer;
@@ -388,7 +390,7 @@ overflow: hidden;
         width:			599px;
         height:			400px;
         overflow:		hidden;
-        margin:			200px 50px 100px 0px;
+        margin:			200px 0px 100px 50px;
         position:		relative;
         transition-duration: 0.5s;
         cursor: pointer;
