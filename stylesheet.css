@@ -256,23 +256,6 @@ overflow: hidden;
    
     .foto1 { display: none !important; }
     .spfoto1 { display: block !important; }
-    .top-wrapper{
-        height: 1700px;
-        width: 750px;
-        margin-left:265px ;
-        overflow: hidden;
-    }
-    .foto1{
-        position: absolute;
-        top: 65px; 
-        left: 265px;
-    }
-    .foto2{
-        position: absolute;
-        top: 65px;
-        left: 765px;
-        cursor: pointer;
-        filter: grayscale(100%);
-        transition-duration: 0.5s;
-    }   
+    img{width: 100%;
+        } 
   }
