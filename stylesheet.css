@@ -258,18 +258,18 @@ overflow: hidden;
     }
     .top-wrapper{
         height: 1500px;
-        width: 500px;
+        width: 599px;
         overflow: hidden;
     }
  .foto1{
     position: absolute;
     top: 65px; 
-    left: 0px;
+    left: 20px;
 }
 .foto2{
     position: absolute;
     top: 765px;
-    left: 0px;
+    left: 20px;
     cursor: pointer;
     filter: grayscale(100%);
     transition-duration: 0.5s;
@@ -291,7 +291,7 @@ overflow: hidden;
      .contact{
         position: absolute;
         top: 20px; 
-        left: 410px;
+        left: 470px;
         cursor: pointer;
       transition-duration: 0.5s;
     }
@@ -346,7 +346,7 @@ overflow: hidden;
         width:			599px;
         height:			400px;
         overflow:		hidden;
-        margin:			200px 0px 50px 0px;
+        margin:			200px 50px 50px 0px;
         position:		relative;
         transition-duration: 0.5s;
         cursor: pointer;
@@ -388,7 +388,7 @@ overflow: hidden;
         width:			599px;
         height:			400px;
         overflow:		hidden;
-        margin:			200px 0px 100px 0px;
+        margin:			200px 50px 100px 0px;
         position:		relative;
         transition-duration: 0.5s;
         cursor: pointer;
