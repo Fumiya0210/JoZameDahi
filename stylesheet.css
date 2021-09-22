@@ -6,6 +6,8 @@ body {
     width: 1000px;
     overflow: hidden;
 }
+.foto1 { display: block !important; }
+.spfoto1 { display: none !important; }
 .foto1{
     position: absolute;
     top: 65px; 
@@ -249,4 +251,28 @@ overflow: hidden;
   a.button:hover span::before,
   a.button:focus span::before {
     background:white;
+  }
+ @media(max-width:800px){
+   
+    .foto1 { display: none !important; }
+    .spfoto1 { display: block !important; }
+    .top-wrapper{
+        height: 1700px;
+        width: 750px;
+        margin-right:265px ;
+        overflow: hidden;
+    }
+    .foto1{
+        position: absolute;
+        top: 65px; 
+        left: 265px;
+    }
+    .foto2{
+        position: absolute;
+        top: 65px;
+        left: 765px;
+        cursor: pointer;
+        filter: grayscale(100%);
+        transition-duration: 0.5s;
+    }   
   }
