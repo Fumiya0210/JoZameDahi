@@ -260,8 +260,20 @@ overflow: hidden;
         height: 1500px;
         width: 500px;
         overflow: hidden;
-        display: flex;
     }
+ .foto1{
+    position: absolute;
+    top: 65px; 
+    left: 0px;
+}
+.foto2{
+    position: absolute;
+    top: 765px;
+    left: 0px;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
     header{
         height: 60px;
         width: 599px;
