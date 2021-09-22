@@ -6,6 +6,8 @@ body {
     width: 1000px;
     overflow: hidden;
 }
+.foto1 { display: block !important; }
+.foto2 { display: none !important; }
 .foto1{
     position: absolute;
     top: 65px; 
@@ -261,6 +263,8 @@ overflow: hidden;
         width: 599px;
         overflow: hidden;
     }
+	  .foto1 { display: none !important; }
+    .foto2 { display: block !important; }
  .foto1{
     position: absolute;
     top: 765px; 
