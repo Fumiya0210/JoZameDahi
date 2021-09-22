@@ -278,7 +278,7 @@ overflow: hidden;
 }
     header{
         height: 80px;
-        width: 599px;
+        width: 100%;
         background-color: white;
         position: fixed;
         z-index: 10;
@@ -321,7 +321,7 @@ overflow: hidden;
     .top-left{
         font-family: 'Carattere', cursive;
     font-family: 'Oswald', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 20px;
     }
     .contact:hover{
@@ -431,7 +431,7 @@ overflow: hidden;
         background-image: url(sumiw.png);
         position: absolute;
         top: 1500px;
-        left: 0px;
+        left: 10px;
         z-index: 2;
     }
     .title{
