@@ -260,7 +260,7 @@ overflow: hidden;
         height: 1500px;
         width: 500px;
         overflow: hidden;
-        display: block;
+        display: flex;
     }
     header{
         height: 60px;
