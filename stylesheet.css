@@ -271,7 +271,7 @@ overflow: hidden;
  .spfoto2 { display: block !important; }
  .spfoto1{
      position: absolute;
-    top: 65px;
+    top: 45px;
     left: 0px;
     cursor: pointer;
     filter: grayscale(100%);
@@ -280,7 +280,7 @@ overflow: hidden;
 }
 .spfoto2{
 	 position: absolute;
-    top: 765px; 
+    top: 745px; 
     left: 0px;
     margin:0 auto;
 }
