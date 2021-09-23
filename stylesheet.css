@@ -269,20 +269,20 @@ overflow: hidden;
  .spfoto1{ display: block !important; }
 .foto2 { display: none !important; }
  .spfoto2 { display: block !important; }
- .foto1{
-    position: absolute;
-    top: 765px; 
-    left: 0px;
-    margin:0 auto;
-}
-.foto2{
-    position: absolute;
+ .spfoto1{
+     position: absolute;
     top: 65px;
     left: 0px;
     cursor: pointer;
     filter: grayscale(100%);
     transition-duration: 0.5s;
      margin:0 auto;
+}
+.spfoto2{
+	 position: absolute;
+    top: 765px; 
+    left: 0px;
+    margin:0 auto;
 }
     header{
         height: 80px;
