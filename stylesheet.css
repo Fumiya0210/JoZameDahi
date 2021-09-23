@@ -7,7 +7,9 @@ body {
     overflow: hidden;
 }
 .foto1 { display: block !important; }
-.foto2 { display: none !important; }
+.spfoto1 { display: none !important; }
+.foto2 { display: block !important; }
+.spfoto2 { display: none !important; }
 .foto1{
     position: absolute;
     top: 65px; 
@@ -264,7 +266,9 @@ overflow: hidden;
         overflow: hidden;
     }
  .foto1 { display: none !important; }
- .foto2 { display: block !important; }
+ .spfoto1{ display: block !important; }
+.foto2 { display: none !important; }
+ .spfoto2 { display: block !important; }
  .foto1{
     position: absolute;
     top: 765px; 
