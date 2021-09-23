@@ -56,6 +56,17 @@
   </h1>
 </div>
 <a class="button" id="jamp4" ><span data-hover="shimizu16854@gmail.com">Contact</span></a>
-  
+<form action="confirm.php" method="post">
+  <dl>
+    <dt><label for="name">▼お名前</label></dt>
+    <dd><input type="text" required id="name" name="name"></dd>
+    <dt><label for="mail">▼メールアドレス</label></dt>
+    <dd><input type="email" required id="mail" name="mail"></dd>
+    <dt><label for="contents">▼内容</label></dt>
+    <dd><textarea name="contents" id="contents" cols="40" rows="10" required></textarea></dd>
+  </dl>
+  <button type="submit">確認画面へ</button>
+  <button type="reset">リセット</button>
+</form>  
 </body>
 </html>
