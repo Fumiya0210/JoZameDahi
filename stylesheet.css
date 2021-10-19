@@ -1,0 +1,187 @@
+.himeji{
+   display: block;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.top-wrapper{
+   display: flex;
+}
+.sample{
+   float:right;
+   background-color: white;
+   height: 200px;
+}
+.sample1{
+   display: block;
+   font-size: 20px;
+   position: fixed;
+   z-index: 10;
+   margin-top: 10px;
+   padding-right: 110px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   color: black;
+}
+.sample2{
+   font-size: 20px;
+   position: fixed;
+   z-index: 10;
+   margin-top: 70px;
+   padding-right: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   color: black;
+}
+.sample3{
+   font-size: 20px;
+   position: fixed;
+   z-index: 10;
+   margin-top: 130px;
+   padding-right: 50px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   color: black;
+}
+.sample4{
+font-size: 20px;
+   position: fixed;
+   z-index: 10;
+   margin-top: 190px;
+   padding-right: 50px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   color: black;
+}
+.sample1:hover{
+   background-color:wheat;
+   opacity: 0.7;
+   cursor: pointer;
+}
+.sample2:hover{
+   background-color:wheat;
+   opacity: 0.7;
+   cursor: pointer;
+}
+.sample3:hover{
+   background-color:wheat;
+   opacity: 0.7;
+   cursor: pointer;
+}
+.sample4:hover{
+   background-color:wheat;
+   opacity: 0.7;
+   cursor: pointer;
+}
+.main-wrapper{
+  margin:0 auto; 
+}
+body {
+   margin-left: 210px;
+   margin-right: 210px;    
+}
+h1{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border-bottom: 1px solid;
+}
+.kobe1{
+ letter-spacing: 1px;
+ line-height: 45px;
+ font-size: 20px;
+}
+h2{
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.kobe2{
+   letter-spacing: 1px;
+ line-height: 45px;
+ font-size: 20px; 
+}
+.akashi{
+   width:45vw ;
+   height: 400px;
+   padding-top: 50px;
+   padding-bottom: 10px;
+   margin: 0 auto;
+}
+.kobeeki1{
+   letter-spacing: 1px;
+   line-height: 45px;
+   font-size: 20px; 
+   padding-top: 10px;
+   padding-bottom: 100px;
+}
+.duokobe1{
+   letter-spacing: 1px;
+   line-height: 45px;
+   font-size: 20px; 
+   padding-bottom: 100px; 
+}
+.kobe3{
+   letter-spacing: 1px;
+ line-height: 45px;
+ font-size: 20px;
+ padding-bottom: 100px;
+}
+.umie1{
+   letter-spacing: 1px;
+   line-height: 45px;
+   font-size: 20px;
+   padding-bottom: 100px; 
+}
+.umie2{
+   letter-spacing: 1px;
+   line-height: 45px;
+   font-size: 20px;
+   padding-bottom: 100px; 
+}
+.anpan5{
+   letter-spacing: 1px;
+   line-height: 45px;
+   font-size: 20px;
+   padding-bottom: 100px;  
+}
+.btn{
+   letter-spacing: 1px;
+   line-height: 45px;
+   font-size: 20px;
+}
+.kobeeki{
+   width:45vw ;
+   height: 400px;
+}
+.duokobe{
+   width:45vw ;
+   height: 400px;
+}
+.anpan{
+   width:45vw ;
+   height: 400px;
+}
+.umie{
+   width:45vw ;
+   height: 400px;
+}
+.anpan4{
+   width:45vw ;
+   height: 400px;
+}
+.ha-ba-{
+   border-bottom: 1px solid;
+}
+.kanran{
+   width:45vw ;
+   height: 400px;
+   padding-top: 50px;
+   padding-bottom: 10px;
+   margin: 0 auto;
+}
+.saigo{
+   border-top: 1px solid;
+}
+.last{
+   float: right;
+}
